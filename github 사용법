@@ -1,0 +1,13 @@
+git status   // 지금 상태 확인 파일명 빨강색 뜸
+git add -A   // 다 추가해버리겠다 
+git status   // 상태 재확인 파일명 초록색 뜸
+git commit -m "제목" // 제목 지정해서 업뎃
+git push --set-upstream origin master // 뜨면 복사해서 치기
+git push origin +master
+로그인 계정 & 비번 입력 
+
+
+----
+예전으로 돌아가고 싶을때 
+git log 쳐서 지점 확인
+git revert 주황색 영어(지점) 7자리 쳐서 엔터  
